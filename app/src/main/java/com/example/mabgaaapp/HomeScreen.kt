@@ -19,7 +19,7 @@ fun HomeScreen(
                 )
             ) {
                 Text(
-                    text = "MangaApp"
+                    text = "Manga Application"
                 )
             }
         }
