@@ -1,4 +1,4 @@
-package com.example.mabgaaapp
+package com.example.mabgaaapp.model
 
 data class Manga(
     val id: String,

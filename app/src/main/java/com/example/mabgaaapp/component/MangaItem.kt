@@ -1,4 +1,4 @@
-package com.example.mabgaaapp
+package com.example.mabgaaapp.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -13,11 +13,12 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalConfiguration
-import androidx.compose.ui.platform.textInputServiceFactory
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
+import com.example.mabgaaapp.model.Manga
+import com.example.mabgaaapp.model.dummyManga
 import com.example.mabgaaapp.ui.theme.MabgaaAppTheme
 
 @OptIn(ExperimentalCoilApi::class, ExperimentalMaterialApi::class)

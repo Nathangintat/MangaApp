@@ -1,12 +1,13 @@
 package com.example.mabgaaapp
 
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavArgument
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.mabgaaapp.home.HomeScreen
+import com.example.mabgaaapp.model.dummyManga
 
 @Composable
 fun MangaApp() {
